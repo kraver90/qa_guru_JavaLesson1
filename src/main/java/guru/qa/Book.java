@@ -7,9 +7,9 @@ public class Book {
     int pages;
     double reiting;
 
-    public void sayBook(){
-        System.out.println("Автор: "+autor+"; Название: "  +name+ "; Год выпуска: "+year+ "; Кол-во страниц: "
-                +pages+"; Рейтинг: "+reiting);
+    public void sayBook() {
+        System.out.println("Автор: " + autor + "; Название: " + name + "; Год выпуска: " + year + "; Кол-во страниц: "
+                + pages + "; Рейтинг: " + reiting);
     }
 }
 
