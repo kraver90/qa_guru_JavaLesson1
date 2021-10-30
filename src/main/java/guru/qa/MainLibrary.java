@@ -12,7 +12,7 @@ public class MainLibrary {
         System.out.println("Книги в наличии:");
 
         Book shooter = new Book("Стивен Кинг", "Стрелок", 1995, 480,8.8, GenreBook.HORROR);
-        Book drawThree = new Book("Стивен Кинг", "извлечение троих", 1997, 685,9.1, GenreBook.DETECTIVE);
+        Book drawThree = new Book("Стивен Кинг", "Извлечение троих", 1997, 685,9.1, GenreBook.DETECTIVE);
         Book wasteLands = new Book("Стивен Кинг", "Бесплодные земли", 2000, 700,8.7, GenreBook.HORROR);
         Book wizzard = new Book("Стивен Кинг", "Колдун и кристал", 2001, 650,9.2, GenreBook.FANTASTIC);
 
