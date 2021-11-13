@@ -1,7 +1,7 @@
 package guru.qa.book;
 
 public class BookSKing {
-    static String author = "Стивен Кинг";
+    private static final String AUTHOR = "Стивен Кинг";
     private String name;
     private int year;
     private int pages;
@@ -74,7 +74,7 @@ public class BookSKing {
     }
 
     public void sayBook() {
-        System.out.println("Автор: " + author + "; Название: " + getName() + "; Год выпуска: " + getYear() + "; Кол-во страниц: "
+        System.out.println("Автор: " + AUTHOR + "; Название: " + getName() + "; Год выпуска: " + getYear() + "; Кол-во страниц: "
                 + getPages() + "; Рейтинг: " + getReiting() + "; Жанр: " + getGenreBook());
     }
 }
