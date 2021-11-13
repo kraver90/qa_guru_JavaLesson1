@@ -65,9 +65,17 @@ public class BookSKing {
         this.reiting = reiting;
     }
 
+    public GenreBook getGenreBook() {
+        return genreBook;
+    }
+
+    public void setGenreBook(GenreBook genreBook) {
+        this.genreBook = genreBook;
+    }
+
     public void sayBook() {
-        System.out.println("Автор: " + author + "; Название: " + name + "; Год выпуска: " + year + "; Кол-во страниц: "
-                + pages + "; Рейтинг: " + reiting + "; Жанр: " + genreBook);
+        System.out.println("Автор: " + author + "; Название: " + getName() + "; Год выпуска: " + getYear() + "; Кол-во страниц: "
+                + getPages() + "; Рейтинг: " + getReiting() + "; Жанр: " + getGenreBook());
     }
 }
 
